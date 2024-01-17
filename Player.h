@@ -37,22 +37,33 @@ private:
 // all our public functions will come next
 public:
 	Player();
-	void spawn(IntRect arena, Vector2f resolution, int tileSize);
+	
 	// call this at the end of every game
 	void resetPlayerStats();
 
+	void spawn(IntRect arena, Vector2f resolution, int tileSize);
+
 	// Handle the player getting hit by a zombie
 	bool hit(Time timeHit);
+
 	//How long ago was the player last hit
 	Time getLastHitTime();
+
 	// where is the player
 	FloatRect getPosition();
+
 	// where is the center of the player
 	Vector2f getCenter();
+
 	// what angle is the player facing
 	float getRotation();
+
 	// Send a copy of the sprite to the main function
 	Sprite getSprite();
+
+	// how much health has the player currently got?
+	int getHealth();
+
 	// the next four functions move the player
 	void moveLeft();
 	void moveRight();
@@ -63,15 +74,19 @@ public:
 	void stopRight();
 	void stopUp();
 	void stopDown();
+
 	// we will call this function once every frame
 	void update(float elapsedTime, Vector2i mousePostiion);
+
 	// Give the player a speed boost
 	void upgradeSpeed();
+
 	// Give the player some health
 	void upgradeHealth();
+
 	// INcrease the maximum amount of health the player can have
 	void increaseHealthLevel(int amount);
-	// how much health has the player currently got?
-	int getHealth();
+
 };
 
+#pragma once

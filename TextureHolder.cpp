@@ -11,7 +11,7 @@ TextureHolder::TextureHolder()
 Texture& TextureHolder::GetTexture(string const& filename)
 {
 	// get a reference to m_Textures using m_s_Instance
-	auto& m = m_s_Instance->m_Textures;
+	auto& m = m_s_Instance ->m_Textures;
 	// auto is the equivalent of map<string, Texture>
 	// Create an interator to hold a key-value-pair (Kvp)
 	// and search for the required kvp

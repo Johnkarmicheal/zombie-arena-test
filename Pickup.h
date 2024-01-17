@@ -1,6 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include <SFML/audio.hpp>
+
 using namespace sf;
 
 class Pickup
@@ -50,3 +50,4 @@ public:
 
 };
 
+#pragma once

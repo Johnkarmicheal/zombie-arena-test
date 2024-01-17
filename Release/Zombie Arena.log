@@ -27,6 +27,7 @@ Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimpo
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Time __thiscall sf::Clock::restart(void)" (__imp_?restart@Clock@sf@@QAE?AVTime@2@XZ)
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QAE@XZ)
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B)
+Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Time const sf::Time::Zero" (__imp_?Zero@Time@sf@@2V12@B)
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: float __thiscall sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QBEMXZ)
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::View::setCenter(class sf::Vector2<float> const &)" (__imp_?setCenter@View@sf@@QAEXABV?$Vector2@M@2@@Z)
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::View::View(class sf::Rect<float> const &)" (__imp_??0View@sf@@QAE@ABV?$Rect@M@1@@Z)
@@ -73,4 +74,4 @@ Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimpo
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Text::~Text(void)" (__imp_??1Text@sf@@UAE@XZ)
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::VertexArray::~VertexArray(void)" (__imp_??1VertexArray@sf@@UAE@XZ)
 Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ)
-C:\VS Projects\Zombie Arena\Release\Zombie Arena.exe : fatal error LNK1120: 75 unresolved externals
+C:\VS Projects\Zombie Arena\Release\Zombie Arena.exe : fatal error LNK1120: 76 unresolved externals

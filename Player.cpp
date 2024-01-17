@@ -17,9 +17,13 @@ Player::Player()
 	m_Sprite.setOrigin(25, 25);
 }
 
-void Player::spawn(IntRect arena,
-	Vector2f resolution,
-	int tileSize)
+void Player::resetPlayerStats()
+{
+	m_Speed = START_SPEED;
+	m_Health = START_HEALTH;
+	m_MaxHealth = START_HEALTH;
+}
+void Player::spawn(IntRect arena,Vector2f resolution, int tileSize)
 
 {
 	//Place the player in the middle of the arena
@@ -39,12 +43,7 @@ void Player::spawn(IntRect arena,
 
 }
 
-void Player::resetPlayerStats()
-{
-	m_Speed = START_SPEED;
-	m_Health = START_HEALTH;
-	m_MaxHealth = START_HEALTH;
-}
+
 
 Time Player::getLastHitTime()
 {
@@ -53,8 +52,7 @@ Time Player::getLastHitTime()
 }
 bool Player::hit(Time timeHit)
 {
-	if (timeHit.asMilliseconds()
-		- m_LastHit.asMilliseconds() > 200)
+	if (timeHit.asMilliseconds() - m_LastHit.asMilliseconds() > 200)// 2 tenths of a second
 	{
 		m_LastHit = timeHit;
 		m_Health -= 10;
@@ -165,7 +163,7 @@ void Player::update(float elapsedTime, Vector2i mousePosition)
 		m_Position.y = m_Arena.top + m_TileSize;
 	}
 	
-// Calculate the angle the player is facing
+	// Calculate the angle the player is facing
 	float angle = (atan2(mousePosition.y - m_Resolution.y / 2,
 		mousePosition.x - m_Resolution.x / 2 )
 		* 180) / 3.141;

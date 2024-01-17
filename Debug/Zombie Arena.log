@@ -1,29 +1,36 @@
-﻿  Zombie Arena.cpp
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(31,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+﻿  Pickup.cpp
+C:\VS Projects\Zombie Arena\Pickup.cpp(25,20): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+C:\VS Projects\Zombie Arena\Pickup.cpp(26,20): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+C:\VS Projects\Zombie Arena\Pickup.cpp(48,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\VS Projects\Zombie Arena\Pickup.cpp(48,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\VS Projects\Zombie Arena\Pickup.cpp(99,34): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\VS Projects\Zombie Arena\Pickup.cpp(103,32): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Zombie Arena.cpp
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(29,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(32,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(30,47): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(33,59): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(32,59): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(33,45): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(32,45): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(569,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(638,55): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(553,66): warning C4390: ';': empty controlled statement found; is this the intent?
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(184,1): warning C4102: 'std': unreferenced label
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(223,1): warning C4102: 'std': unreferenced label
+  Generating Code...
   Zombie Arena.vcxproj -> C:\VS Projects\Zombie Arena\Debug\Zombie Arena.exe
